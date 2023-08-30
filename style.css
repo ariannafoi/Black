@@ -1,0 +1,131 @@
+/* GENERAL SETTINGS */
+h2, h3, h4, h5, h6, p {
+    font-family: 'Jura', sans-serif;
+    color: white;
+}
+
+h1, .number-custom {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+/* NAVBAR */
+.nav-custom {
+    height: 80px;
+    width: auto;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+.color-a{
+    color: #2B9DF4;
+}
+.color-a:hover{
+    color: grey;
+}
+
+
+/* HEADER */
+.header-row-custom{
+    height: 100vh;
+    background-image: url(./media/moon.jpg);
+}
+
+.h1-custom{
+    font-size: 80px;
+}
+
+
+/* SECTION 1 */
+.div-one-custom{
+    border-bottom: 1px solid #2B9DF4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.number-custom{
+    font-size: 70px;
+}
+
+
+/* SECTION 2 */
+.img-custom{
+    background-image: url(./media/moon2.jpg);
+}
+.h2-custom{
+    color: #2B9DF4;
+}
+
+.div-two-custom{
+    margin-left: 100px;
+    font-size: 25px;
+}
+
+.bottom-custom{
+    margin-bottom: 250px ;
+}
+
+/* SECTION 3 */
+.border-custom{
+    border-bottom: 1px solid #2B9DF4;
+}
+
+.color-custom{
+    color: #2B9DF4;
+}
+
+.text-custom-center{
+    text-align: center;
+}
+.text-custom-end{
+    text-align: end;
+}
+
+.margin-three-custom{
+    margin: 100px 0px;
+}
+
+.margin-custom{
+    margin: 0px 100px 50px 100px;
+}
+
+/* SECTION 4 */
+
+.margin-four-custom{
+ margin-top: 150px;
+}
+
+/* SECTION 5 */
+.btn-custom{
+    border: 1px solid #2B9DF4;
+    color: #2B9DF4;
+}
+
+.btn-custom:hover{
+    border: 1px solid white;
+    color: white;
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width: 767px) {
+
+    /* SECTION 2 */
+    .div-two-custom{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    /* SECTION 3 */
+    .margin-custom{
+        margin: 50px 10px;
+    }
+
+    .text-position{
+        text-align: center !important
+    }
+}
