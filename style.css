@@ -241,6 +241,10 @@ body{
         box-shadow: 0 0 50px #2B9DF4;
     }
 
+    .btn-nav{
+        background-color: #2B9DF4;
+    }
+
     /* FOOTER */
     .img-footer{
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0.668),rgba(0, 0, 0, 0)), url(./media/sunrise-1765027_1920.jpg);
