@@ -234,6 +234,12 @@ body{
         background-image: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url(./media/missile-2027068_1280.png);
     }
 
+    /* SECTION 5 */
+    .btn-custom{
+        background: #2B9DF4;
+        color: black;
+        box-shadow: 0 0 50px #2B9DF4;
+    }
 
     /* FOOTER */
     .img-footer{
